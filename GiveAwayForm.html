@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="AdoptStyle.css">
+    <title>Give Away Form</title>
+</head>
+<body>
+<header>
+    <table>
+        <tr>
+        <th>HAVE A BUDDY TO GIVE AWAY?</th>
+       
+        <th><a href="HomePage.html"><img src="https://i.postimg.cc/hvWmpdG2/dog-paw-clip-art-paw-prints-57b62404e2ec3d81ce11628e0c9a978c.png" height="30" width="30" alt="Paw Logo" ></a></th>
+        </tr>
+    </table></header>
+
+<div>
+
+
+<!--Main Content Area-->
+<article>
+    <!--Have a link to a form that appears, I assumed this meant you need a new page for the form??-->
+    <form>
+        <h2>Need to help your Buddy find a forever home?</h2>
+        <h3>Fill out the following form!</h3><br>
+        <!--Type of Animal-->
+        <h3>Which Animal?</h3>
+        <input type="radio" id="dogaway" name="animal" value="Dog">
+        <label for="dogaway">Dog</label>
+        <input type="radio" id="cataway" name="animal" value="Cat">
+        <label for="cataway">Cat</label><br><br>
+
+        <!--Breed-->
+        <h3>What breed is your buddy?</h3>
+        <label for="breedaway">Select a breed:</label>
+        <select id="breedaway" name="breed">
+            <option value="orange">Orange</option>
+            <option value="spotted">Spotted</option>
+            <option value="striped">Striped</option>
+            <option value="mixed">Mixed Breed</option>
+        </select><br><br>
+
+        <!--Animal Gender-->
+        <h3>What is their gender?</h3>
+        <input type="radio" id="maleaway" name="genderaway" value="Male">
+        <label for="maleaway">Male</label>
+        <input type="radio" id="femaleaway" name="genderaway" value="Female">
+        <label for="femaleaway">Female</label><br><br>
+
+        <!--Behavioral Aspects-->
+        <h3>Who does your buddy get along with?</h3>
+        <input type="checkbox" id="otherdogsaway" name="behavior" value="OtherDogs">
+        <label for="otherdogsaway">Other dogs</label>
+        <input type="checkbox" id="othercatsaway" name="behavior" value="OtherCats">
+        <label for="othercatsaway">Other cats</label>
+        <input type="checkbox" id="childrenaway" name="behavior" value="Children">
+        <label for="childrenaway">Small Children</label><br><br>
+
+        <!--Text area for description-->
+        <h3>Bragging rights space...</h3>
+        <textarea id="bragging" name="bragging"></textarea>
+
+        <!--Names-->
+        <h3>Now some info about you!</h3>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" >
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        
+
+        <!--Email Address-->
+        <h3>What is an email that we can reach you at?</h3>
+        <label for="email">Enter your email: </label>
+        <input type="email" id="email" name="email"><br><br>
+
+
+
+        <!--Submit and Reset buttons-->
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+
+    </form>
+   
+    
+</article>
+<nav>
+    <ul>
+        <li><a href="HomePage.html">Home Page</a></li>
+        <li><a href="Browse.html">Browse Available Pets</a></li>
+        <li> <a href="Find.html">Find a dog/cat</a></li>
+        <li><a href="DogCare.html">Dog care</a></li>
+        <li><a href="CatCare.html">Cat care</a></li>
+        <li><a href="GiveAway.html">Have a pet to give away</a></li>
+        <li><a href="Contact.html">Contact us</a></li>
+    </ul>
+</nav>
+</div>
+<!--Footer Area-->
+<footer>
+    <p><a href="Privacy.html">Privacy Disclaimer</a></p>
+ </footer>
+</body>
+</html>
